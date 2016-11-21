@@ -1,13 +1,25 @@
 {
   "name": "thresholdcrypto",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.4",
+  "description": "Threshold cryptography implementation based off Shamir's secret sharing algorithm.",
+  "keywords": [
+    "threshold",
+    "cryptography",
+    "shamir",
+    "polynomial",
+    "interpolation"
+  ],
   "main": "threshold.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Harold Shen hlshen@ucsd.edu",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/hls97/thresholdcrypto"
+  },
+  "homepage": "https://github.com/hls97/thresholdcrypto",
   "dependencies": {
     "big-integer": "^1.6.16",
     "compute-polynomial": "^1.1.0",

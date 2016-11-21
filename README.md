@@ -1,6 +1,3 @@
-thresholdcrypto.js
-==================
-
 Implementation of threshold cryptography algorithm also known as Shamir's secret sharing algorithm.
 
 Usage
